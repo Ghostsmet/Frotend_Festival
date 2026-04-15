@@ -1,0 +1,65 @@
+.main-content {
+  background: radial-gradient(ellipse at center, #512B4D 0%, #000000 100%, #512B4D 100%);
+  /* Или просто цвет: background: #3498db; */
+  min-height: 500vh;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;           
+  left: 50%;  
+  font-size: 3rem;        
+  transform: translate(-50%, -50%);  
+  text-align: center;
+  color: white;
+  width: 80%;
+  max-width: 800px;
+  /*background: rgba(0, 0, 0, 0.5); 
+  padding: 30px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+
+.center-image {
+  position: absolute;
+  top: 11%;  
+  left: 0;
+  /* или right: 20px; для правого края */
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  position: absolute;
+  top: 70vh;
+  transform: translate(-50%, -50%);  
+  display: inline-block;
+  background: #483683;
+  color: white;
+  border: none;
+  padding: 12px 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+/*.btn:hover {
+  background: #493962b9;
+  background: rgba(58, 49, 49, 0.729);
+  transform: translateY(-4px);  
+  box-shadow: 0 10px 20px rgba(67, 72, 107, 0.2);
+}
+
+.btn:active {
+ transform: translateY(0px);  
+}
+ */

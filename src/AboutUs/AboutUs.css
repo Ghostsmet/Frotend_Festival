@@ -1,0 +1,156 @@
+
+
+.textabout {
+  position: absolute;
+  top: 120%;          
+  left: 30%;  
+  font-size: 4cap;        
+  transform: translate(-50%, -50%);  
+  text-align: left;
+  color: white;
+  width: 80%;
+  max-width: 800px;
+  /*background: rgba(0, 0, 0, 0.5); 
+  padding: 30px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);*/
+}
+
+
+.textabouth6 {
+  position: absolute;
+  top: 135%;          
+  left: 30%;  
+  font-size: 2cap;        
+  transform: translate(-50%, -50%);  
+  text-align: left;
+  color: white;
+  width: 80%;
+  max-width: 800px;
+  
+  padding: 30px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+
+.center-image {
+  position: absolute;
+  top: 11%;  
+  left: 0;
+  
+  width: 100%;
+  height: auto;
+}
+
+.btnAbout {
+  position: absolute;
+  top: 153vh;
+  left: 30vh;
+  transform: translate(-50%, -50%);  
+  display: inline-block;
+  background: #483683;
+  color: white;
+  border: none;
+  padding: 20px 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.btnAbout:hover {
+  background: #493962b9;
+  background: rgba(17, 15, 15, 0.858);
+  /*transform: translateY(-4px);  
+  box-shadow: 0 10px 20px rgba(67, 72, 107, 0.2);
+}
+
+.btn:active {
+ /* transform: translateY(0px);  
+}
+*/
+.center-imageAbout {
+  position: absolute;
+  top: 110%;  
+  right: 20vh;
+  /* или right: 20px; для правого края */
+  width: 20%;
+  height: auto;
+}
+
+
+
+.cards-container {
+  position: absolute;
+  top: 180vh;
+  left: 20vh;
+  z-index: 2;
+  max-width: 1000px;
+  
+  margin: 120px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10vh;
+}
+
+.advantage-card {
+  display: grid;
+  background: rgba(23, 22, 22, 0.303);
+  border-radius: 15px;
+  padding: 30px 25px;
+  
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.advantage-card:hover {
+    background: rgba(20, 19, 19, 0.759);
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+  width: 300px;
+  height: 155px;
+  margin: 0 auto 20px;
+  object-fit: contain;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.card-description {
+  color: #ffffff;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+}
+
+.card-btn {
+  background: #483683;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-btn:hover {
+  background: #5a459b;
+  transform: scale(1.05);
+}
+}
