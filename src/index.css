@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/* ========== ГЛОБАЛЬНОЕ УМЕНЬШЕНИЕ ШРИФТА ДЛЯ МОБИЛЬНЫХ ========== */
+@media (max-width: 430px) {
+  /* Основной текст */
+  body, html, .App, div, p, span, li, label {
+    font-size: 14px !important;
+  }
+
+  /* Заголовки */
+  h1 {
+    font-size: 24px !important;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  h3, .festival-title, .card-title {
+    font-size: 18px !important;
+  }
+
+  h4, h5, h6 {
+    font-size: 16px !important;
+  }
+
+  /* Специальные тексты */
+  .description, .textabouth, .textabouth5, .textabouth6, .textabouth7 {
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+    
+  }
+
+  .festival-subtitle, .festival-date, .festival-location {
+    font-size: 12px !important;
+  }
+
+  /* Кнопки */
+  .btn, .btnAbout, .nav-btn, .accounting, .auth-btn, .submit-btn, .action-btn {
+    font-size: 13px !important;
+    padding: 6px 12px !important;
+  }
+
+  /* Поля ввода */
+  input, select, textarea {
+    font-size: 14px !important;
+    padding: 10px !important;
+  }
+
+  /* Жюри и карточки */
+  .card-description, .jury-description {
+    font-size: 12px !important;
+  }
+
+  /* Подвал */
+  footer, .footer p, .account-footer p {
+    font-size: 12px !important;
+  }
+
+  /* Телефон */
+  .phone {
+    font-size: 16px !important;
+  }
+
+  /* Ссылки */
+  a, .link-btn {
+    font-size: 13px !important;
+  }
+}
+
+/* Для экранов от 380px и меньше */
+@media (max-width: 380px) {
+  body, html, .App, div, p, span {
+    font-size: 12px !important;
+  }
+
+  h1 {
+    font-size: 22px !important;
+  }
+
+  h2 {
+    font-size: 18px !important;
+  }
+
+  .btn, .btnAbout, .nav-btn {
+    font-size: 12px !important;
+    padding: 5px 10px !important;
+
+  }
+
+
+
+}

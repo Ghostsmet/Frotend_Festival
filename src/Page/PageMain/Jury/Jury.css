@@ -1,0 +1,28 @@
+.jury-content {
+  /*background: radial-gradient(ellipse at center, #512B4D 0%, #000000 100%, #512B4D 100%);*/
+  padding: 10vh;
+  /* Убрать display: flex, min-height: 500vh и центрирование */
+}
+
+textabout
+
+.textabouth5 {
+  font-size: 2cap;
+  text-align: left;
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  padding: 5px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin: 0;
+  text-indent: 1vh;
+  
+}
+
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1200px;
+    }
+}

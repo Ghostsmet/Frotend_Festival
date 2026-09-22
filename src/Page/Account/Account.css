@@ -1,0 +1,437 @@
+.account-page {
+  background: linear-gradient(180deg, #391D36 0%, #664076 10%, #000000 100%);
+  min-height: 100vh;
+  padding: 0px 40px 40px 40px;
+}
+
+
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  min-width: 100px;  /* ← фиксируем минимальную ширину */
+}
+
+.accountingcs {
+  display: flex;
+  position: relative;
+  left: 17vh;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 0;           /* ← убираем лишние отступы */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logo-imgs {
+  width: 120px;          /* ← ФИКСИРОВАННАЯ ширина, а не 50% */
+  height: 120px;         /* ← ФИКСИРОВАННАЯ высота */
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;   /* ← круглый вид */
+}
+
+/* Если нужно больше/меньше размер */
+@media (max-width: 768px) {
+  .logo-imgs {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.account-container h1 {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+.user-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 3vh;
+  gap:16px;
+}
+
+.info-card {
+  background: rgba(30, 22, 31, 1);
+  border-radius: 15px;
+  padding: 12px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+.info-card .label {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.info-card .value {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Кнопки действий */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.action-btn {
+  background: #483683;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  flex: 1;
+}
+
+.action-btn:hover {
+  background: #ffd700;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 35px solid rgba(28, 20, 28, 1);
+  border-radius: 22px 22px 22px 22px;
+}
+
+.info-row .label {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.action-btn {
+  background: #1c141c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-btn:hover {
+  background: #000000;
+  transform: scale(1.05);
+}
+
+.edit-form {
+  position: relative;
+  left: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.edit-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.edit-form .form-group label {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.edit-form .form-group input {
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(28, 20, 28, 1);
+  font-size: 16px;
+}
+
+.button-group {
+    position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.save-btn {
+  width: 100%;  
+  background: #1b141c;
+  margin-right: 9vh;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+    min-width: 120px;         /* ← фиксированная минимальная ширина */
+  width: auto
+  
+}
+.save-btn:hover {
+  background: #1b141c;
+  
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transform: scale(1.05);
+  
+}
+
+.cancel-btn {
+  width: 100%;  
+  background: #1b141c;
+  margin-right: 9vh;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+    min-width: 120px;         /* ← фиксированная минимальная ширина */
+  width: auto
+  
+}
+
+
+
+.cancel-btn:active {
+  background: #1b141c;
+  
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+    min-width: 50px;         /* ← фиксированная минимальная ширина */
+  width: auto
+}
+
+.consultant-btn {
+  background: #483683;
+
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+
+.account-container {
+    background: #221a23;
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    border-radius: 20px 20px 20px 20px;
+    padding: 15px 70px 30px 70px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    min-height: 600px;
+    min-width: 550px;
+}
+
+
+.account-container h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.account-form input {
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+}
+
+.account-form input:focus {
+  outline: none;
+  background: white;
+  box-shadow: 0 0 5px #edead9;
+}
+
+.account-btn {
+  background: #4E3C56;
+  color: #ffffff;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.account-btn:hover {
+  background: #3F3145;
+  transform: scale(1.02);
+}
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+/* ========== АДАПТАЦИЯ ДЛЯ МОБИЛЬНЫХ ========== */
+@media (max-width: 430px) {
+  .account-page {
+    padding: 20px 15px !important;
+  }
+
+  .account-container {
+    padding: 20px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    min-height: 350px;
+    min-width: 300px;
+  }
+
+  .account-container h1 {
+    font-size: 24px !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* Карточки данных */
+  .user-info {
+    gap: 12px !important;
+  }
+
+  .info-card {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 12px 15px !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+    border-radius: 12px !important;
+  }
+
+  .info-card .value {
+    font-size: 14px !important;
+    color: white !important;
+    text-align: right !important;
+    word-break: break-word !important;
+    max-width: 60% !important;
+  }
+
+  /* Кнопки действий */
+  .action-buttons {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-top: 20px !important;
+  }
+
+  .action-btn {
+    width: 100% !important;
+    padding: 10px !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Форма редактирования */
+  .edit-form {
+    gap: 12px !important;
+  }
+
+  .edit-form .form-group {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 5px !important;
+  }
+
+  .edit-form .form-group label {
+    font-size: 13px !important;
+    color: #ffd700 !important;
+  }
+
+  .edit-form .form-group input {
+    padding: 10px !important;
+    font-size: 14px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .button-group {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-top: 10px !important;
+  }
+
+  .button-group .action-btn {
+    margin: 0 !important;
+  }
+
+  /* Сообщения */
+  .error-message, .success-message {
+    font-size: 13px !important;
+    margin-bottom: 15px !important;
+    text-align: center !important;
+  }
+}

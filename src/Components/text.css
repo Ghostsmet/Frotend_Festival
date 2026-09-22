@@ -1,0 +1,123 @@
+.textabout {
+    font-size: 3cap;
+    text-align: left;
+    color: white;
+    width: 80%;
+    padding: 1px 1px 45px 70px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+
+.textabouth6 {
+  font-size: 2cap;
+  text-align: left;
+  color: white;
+  width: 100%;
+  max-width: 900px;
+  padding: 30px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin: 0;
+  text-indent: 2em;
+}
+
+.textabout1 {
+  font-size: 2cap;
+  text-align: left;         
+  color: white;
+  width: 80%;
+  padding: 0px 0px 0px 30px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin: 0;
+}
+
+.textabout2 {
+  font-size: 4cap;
+  text-align: left;         
+  color: white;
+  width: 80%;
+  padding: 0px 0px 0px 85px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin: 0;
+}
+
+.textabout555 {
+    position: relative;
+    left: 2vh;
+    font-size: 3cap;
+    text-align: left;
+    color: white;
+    width: 100%;
+    padding: 1px 1px 1px 35px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+
+.textabout666 {
+    position: relative;
+    left: 2vh;
+    font-size: 3cap;
+    bottom: 4vh;
+    text-align: left;
+    color: white;
+    width: 100%;
+    padding: 1px 5px 1px 25px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    display: none;
+
+}
+
+
+@media (max-width: 430px) {
+.textabout {
+    font-size: 5cap;
+    text-align: left;
+    color: white;
+    width: 100%;
+    padding: 1px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+
+.textabout555 {
+    position: relative;
+    left: -8vh;
+    font-size: 5cap;
+    text-align: left;
+    color: white;
+    width: 100%;
+    padding: 1px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+
+
+    .textabout666 {
+    position: relative;
+    left: -15vh;
+    ;
+    font-size: 3cap;
+    bottom: 4vh;
+    text-align: left;
+    color: white;
+    width: 100%;
+    padding: 1px 5px 1px 25px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    display: none;
+}
+}
+}
+
+

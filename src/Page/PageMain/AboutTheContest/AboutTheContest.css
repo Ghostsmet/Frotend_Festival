@@ -1,0 +1,169 @@
+.about-the-contest {
+  /*background: radial-gradient(ellipse at center, #512B4D 0%, #000000 100%, #512B4D 100%);*/
+  padding: 3vh;
+  /* Убрать display: flex, min-height: 500vh и центрирование */
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;   
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 70px;
+}
+.textabouth5 {
+  font-size: 1.5cap;
+  text-align: left;
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  padding: 5px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin: 0;
+  text-indent: 2em;
+  
+}
+
+.textabouth7 {
+
+  font-size: 1.5cap;
+  text-align: left;
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  padding: 5px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin: 0;
+  text-indent: 3em;
+  
+}
+
+.reward1{
+
+  width: 30%;
+  display: block;       
+  margin: 20px 0;
+  float: right; 
+}
+
+
+@media (max-width: 430px) {
+.container {
+  position: relative;
+  top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+
+  /* Блок "О нас" */
+  .about-us-section {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .about-us-section .container {
+    position:relative;
+    top: 11vh;
+    flex-direction: column !important;
+    gap: 15px !important;
+    padding: 0 15px !important;
+  }
+
+  .textabout {
+    font-size: 24px !important;
+    text-align: center !important;
+    margin-bottom: 1px !important;
+    line-height: 1.3 !important;
+  }
+
+  /* Текст описания */
+  .textabouth6 {
+    font-size: 14px !important;
+    text-align: center !important;
+    padding: 0 !important;
+    margin-bottom: 15px !important;
+  }
+
+  /* Картинка */
+  .reward {
+    width: 50% !important;
+    margin: 0 auto !important;
+    display: none !important;
+  }
+
+  /* Слайдер */
+  .swiper-container {
+    padding: 20vh 10px 1px 1px !important
+  }
+
+  .swiper-container h2 {
+
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+
+
+
+}
+
+
+@media (max-width: 430px) {
+  .about-the-contest {
+    padding: 20px 15px !important;
+  }
+
+  .about-the-contest .container {
+    flex-direction: column !important;
+    padding: 0 !important;
+  }
+
+  .leftContent {
+    padding: 0 !important;
+  }
+
+  /* Заголовок "О конкурсе" */
+  .textabout {
+    font-size: 24px !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* Текст */
+  .textabouth5, .textabouth7 {
+
+    line-height: 1.4 !important;
+   /* text-align: left !important;*/
+    margin-bottom: 15px !important;
+  }
+
+  /* Картинка */
+  .reward1 {
+    width: 100% !important;
+    max-width: 250px !important;
+    margin: 20px auto 0 !important;
+    display: none !important;
+  }
+
+  /* Кнопка */
+  .btnAbout {
+    font-size: 14px !important;
+    padding: 10px 20px !important;
+    width: 80% !important;
+    text-align: center !important;
+  }
+}

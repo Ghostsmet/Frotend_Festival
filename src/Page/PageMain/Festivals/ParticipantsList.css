@@ -1,0 +1,122 @@
+.participants-page {
+  background: linear-gradient(180deg, #391D36 0%, #664076 10%, #000000 100%);
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.participants-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.participants-container h1 {
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.participants-container h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.back-btn {
+  background: #9797977a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-btn:hover {
+  background: #bebebecc;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.participants-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+.participants-table th,
+.participants-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.participants-table th {
+  color: #ffffff;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.participants-table tr:hover {
+  background: rgba(194, 194, 194, 0.1);
+}
+
+.no-participants {
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+}
+
+.not-found {
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 24px;
+}
+
+.delete-booking-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.status-select {
+    padding: 5px 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.status-select:hover {
+    border-color: #2196f3;
+}
+
+.delete-booking-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.delete-booking-btn:hover {
+    background-color: #c82333;
+}

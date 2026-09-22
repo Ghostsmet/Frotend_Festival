@@ -1,4 +1,6 @@
 .App {
+  background: radial-gradient(ellipse at center, #512B4D 0%, #000000 100%, #512B4D 100%);
+  min-height: 707vh;  /* минимальная высота на весь экран */
   text-align: center;
 }
 
@@ -22,8 +24,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
-
+.main-content {
+  /*background: radial-gradient(ellipse at center, #512B4D 0%, #000000 100%, #512B4D 100%);*/
+  min-height: 1vh;         
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* ← вместо center — прижимаем к верху */
+  align-items: center;         
+      
+}
 .App-link {
   color: #61dafb;
 }
@@ -38,3 +49,165 @@
 }
 
 
+/* Принудительно делаем весь текст белым, кроме специальных элементов */
+body, .App, div, p, span, li, button, input, select, textarea {
+  color: #ffffff;
+}
+
+
+/* Золотые элементы оставляем золотыми */
+h1, h2, h3, .phone, .label, .festival-title, .link-btn, .auth-btn, .submit-btn {
+  color: #ffffff;
+}
+
+/* Bootstrap навигация */
+.navbar, .navbar-brand, .nav-link, .navbar-toggler {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #fffef9 !important;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 430px) {
+  /* Убираем горизонтальный скролл */
+  body, html, .App, #root {
+    overflow-x: hidden;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    
+  }
+
+  /* Контейнеры */
+  .container, .about-competition, .application-container, .festivals-section {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Заголовки */
+  h1, .festivals-heading {
+    font-size: 17px !important;
+    padding-left: 0 !important;
+    text-align: left !important;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  /* Текст */
+  p, .description, .textabouth, .textabouth5 {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Карточки фестивалей */
+  .festivals-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .festival-card {
+    width: 100% !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Кнопки */
+  .btn, .btnAbout, .submit-btn, .action-btn, .submit-btnss {
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    width: auto !important;
+  }
+
+  /* Формы */
+  input, select, textarea {
+    font-size: 14px !important;
+    padding: 10px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .form-group {
+    width: 100% !important;
+  }
+
+  /* Карта */
+  .maps-container, .right-content, .maps-left, .maps-right {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .maps-left iframe {
+    height: 200px !important;
+  }
+
+
+
+  /* Отступы */
+  .left-content, .right-content {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Подвал */
+  footer, .account-footer, .footer-application {
+    padding: 20px 15px !important;
+    text-align: center !important;
+  }
+
+  /* Блок О конкурсе */
+  .about-competition .container {
+    flex-direction: column !important;
+    padding: 0 !important;
+  }
+
+  .about-competition .left-content {
+    padding-right: 0 !important;
+  }
+
+  /* Аккаунт */
+  .account-container {
+    padding: 20px !important;
+    width: 100% !important;
+  }
+
+  .info-card {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 8px !important;
+  }
+
+  .action-buttons {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+
+
+  .App {
+    background: radial-gradient(ellipse at center, #96478d 0%, #000000 90%, #733d6e 100%);
+    min-height: 700vh;
+    text-align: center;
+}
+
+.mobile-nav-btn:active{
+  color: #000000af;
+}
+
+
+}

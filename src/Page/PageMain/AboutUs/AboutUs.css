@@ -1,0 +1,144 @@
+.container{
+  display: flex;
+  align-items: center;     /* центрирует по вертикали */
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.about-us-section {
+  /*background: radial-gradient(ellipse at center, #512B4D 0%, #000000 100%, #512B4D 100%);*/
+  padding: 10px 0;
+  /* Убрать display: flex, min-height: 500vh и центрирование */
+}
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* занимает всё доступное место */
+}
+
+.textabout {
+  font-size: 4cap;
+  text-align: left;         
+  color: white;
+  width: 80%;
+  padding: 30px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin: 0;
+}
+
+
+.textabouth6 {
+  font-size: 2cap;
+  text-align: left;
+  color: white;
+  width: 80%;
+  max-width: 800px;
+  padding: 30px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin: 0;
+  
+  /*
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;*/
+}
+
+
+.center-image {
+  position: absolute; 
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.center-imageAbout {
+  position: absolute;
+  top: 110%;  
+  right: 20vh;
+  /* или right: 20px; для правого края */
+  width: 20%;
+  height: auto;
+}
+
+.cards-container {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  
+  margin: 120px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10vh;
+}
+
+.card-icon {
+  width: 300px;
+  height: 155px;
+  margin: 0 auto 20px;
+  object-fit: contain;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.card-description {
+  color: #ffffff;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+}
+
+.card-btn {
+  background: #483683;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-btn:hover {
+  background: #5a459b;
+  transform: scale(1.05);
+}
+
+
+
+.reward{
+
+  width: 25%;
+  display: block;       
+  margin: 20px 0;
+  float: right; 
+}
+
+@media (max-width: 430px) {
+  .textabout666 {
+    position: relative;
+    left: 2vh;
+    font-size: 5cap;
+    text-align: left;
+    color: white;
+    width: 100%;
+    padding: 1px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+}

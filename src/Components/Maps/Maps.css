@@ -1,0 +1,93 @@
+.maps-container {
+    position: relative;
+   top: 10vh;
+  gap: 30px;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 1700px;
+  background: rgba(3, 3, 3, 0.303);
+  backdrop-filter: blur(30px);
+  border-radius: 15px;
+}
+
+.maps-left {
+  flex: 1.5;
+  height: 460px;
+}
+
+.maps-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+/* Контакты */
+.contact-info {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 15px;
+  border-radius: 15px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.phone {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+/* Адрес */
+.address-info {
+    color: #fff;
+  font-size: 1rem;
+  text-align: left;
+  padding: 12px 15px;
+  border-radius: 15px;
+}
+
+.address-info p {
+  margin: 5px 0;
+}
+
+.address {
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+
+.soc-seti{ 
+display: flex;
+position: relative;
+left: 3vh;
+}
+
+
+
+@media (max-width: 430px) {
+
+  /* Убираем белые полосы по бокам */
+  body, html, .App, .account-page {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .maps-container {
+    width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    border-radius: 0 !important;
+    padding: 20px !important;
+  }
+
+
+.maps-left {
+    flex: 1.5 1;
+    height: 230px;
+}
+}

@@ -1,0 +1,169 @@
+.add-festival-page {
+  background: linear-gradient(180deg, #391D36 0%, #664076 10%, #000000 100%);
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.add-festival-container {
+  max-width: 700px;
+  /*margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);*/
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.add-festival-container h1 {
+  color: #ffffff;
+  font-size: 32px;
+  /*text-align: center;*/
+  margin-bottom: 30px;
+}
+
+.add-festival-container .form-group {
+  margin-bottom: 20px;
+}
+
+.add-festival-container label {
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.add-festival-container input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+
+  border: none;
+  background: #36213e;
+  font-size: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  background: #36213e;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+.submit-btn:hover {
+  width: 100%;
+  background: #6d606bb2;
+  color: white;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.submit-btns {
+  width: 100%;
+  background: #2b1d2945;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.submit-btns:hover {
+  width: 100%;
+  background: #03020345;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+
+.cancel-btn {
+  width: 100%;
+  background: #666;
+  margin-right: 9vh;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* для ошибок*/
+/* Стили для ошибок валидации */
+.error-input {
+  border: 2px solid #ff4444 !important;
+  background: rgba(255, 68, 68, 0.1) !important;
+}
+
+.error-message {
+  color: #ff4444;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Стиль для календаря */
+input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: rgb(54 33 62);
+  font-size: 16px;
+}
+
+
+
+
+/* Для Chrome, Safari, Edge */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.2);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Для Firefox */
+input[type="date"] {
+  color-scheme: dark;
+}
+
+
+
+
+
+
+
+/* Кнопка отмены */
+.cancel-btn {
+  width: 100%;
+  background: #666;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cancel-btn:hover {
+  background: #888;
+}
